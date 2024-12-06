@@ -7,7 +7,7 @@ const CakeContainer = (props) => {
   return (
     <div>
       <h1>Toal Number of Cakes {props.numOfCakes}</h1>
-      <button onClick={()=>props.buyCake()}>Buy Cake</button>
+      <button onClick={()=>props.buyCake}>Buy Cake</button>
     </div>
   )
 }
